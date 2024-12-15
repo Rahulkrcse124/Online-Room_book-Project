@@ -1,0 +1,242 @@
+/* Responsive Design */
+
+@media (max-width: 1199px) {
+
+    /* header */
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        font-size: 14px;
+    }
+
+
+    .main-btn {
+        font-size: 14px;
+    }
+
+    /* booking area */
+    .booking-area {
+        padding: 48px 10px;
+    }
+
+    .booking-area .main-btn {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    /* service */
+    .service-item-wrap .tab-content img {
+        width: 100%;
+    }
+
+    .service-menu-area ul li a {
+        margin-bottom: 13px;
+        overflow: hidden;
+    }
+
+    .service-menu-area ul li:nth-child(1) {
+        margin-left: -71px;
+    }
+
+    .service-menu-area ul li:nth-child(2) {
+        margin-left: -111px;
+    }
+
+    .service-menu-area ul li:nth-child(3) {
+        margin-left: -150px;
+    }
+
+    .service-menu-area ul li:nth-child(4) {
+        margin-left: -205px;
+    }
+
+    .service-menu-area ul li a h5 {
+        margin-bottom: 6px;
+    }
+
+    /* .header_wrapper:hover>.navbar .container .navbar-toggler {
+      color: #fff !important;
+  } */
+}
+
+@media (max-width:991px) {
+
+    /* custom css */
+    section {
+        padding: 30px 0;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    .header_wrapper:hover>.navbar {
+        background-color: #021832;
+    }
+
+    .header_wrapper:hover>.navbar .nav-item .nav-link {
+        color: #fff;
+    }
+
+    .fas.fa-stream {
+        color: #021832;
+    }
+
+    .header_wrapper:hover .fas.fa-stream {
+        color: white;
+    }
+
+    .header_wrapper:hover>.navbar .main-btn {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .main-btn:hover {
+        background-color: #021832;
+        color: #fff !important;
+        /* border-color: white; */
+    }
+
+
+
+    /* .header_wrapper:hover>.navbar {
+      background-color: #021832;
+  }
+
+  .header_wrapper:hover>.navbar .nav-item .nav-link {
+      color: #021832;
+  }
+
+  .fas.fa-stream.navbar-toggler-icon {
+      color: #021832;
+  }
+
+
+  .header_wrapper:hover .navbar .navbar-toggler {
+      color: #fff !important;
+  }
+
+  .fas.fa-stream.navbar-toggler-icon:hover {
+      color: #fff;
+  }
+
+  .header_wrapper:hover>.navbar .main-btn {
+      color: #021832;
+      border-color: #021832;
+  } */
+
+
+
+    /* banner wrapper */
+    .banner_wrapper {
+        height: 410px;
+    }
+
+    .booking-area {
+        padding: 50px 30px;
+    }
+
+    /* About */
+    .about_wrapper {
+        padding-top: 358px;
+    }
+
+    /* services */
+    .service-menu-area {
+        padding: 24px 8px;
+    }
+
+    .service-menu-area ul li {
+        margin-left: unset !important;
+    }
+
+    /* room */
+    .room-item .room-content {
+        padding: 32px 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    /* blog */
+    .blog-content {
+        margin: 0;
+    }
+
+    /* footer */
+    .footer_wrapper>div {
+        padding: 0 30px;
+    }
+
+    .header_wrapper:hover>.navbar {
+        background-color: #021832;
+    }
+
+    .header_wrapper:hover>.navbar .nav-item .nav-link {
+        color: #fff;
+    }
+
+    .fas.fa-stream {
+        color: #021832;
+    }
+
+    .header_wrapper:hover .fas.fa-stream {
+        color: white;
+    }
+
+
+    .header_wrapper:hover>.navbar .main-btn {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    /* .fas.fa-stream.navbar-toggler-icon:hover {
+      color: #021832;
+  } */
+    /* 
+  .header_wrapper:hover .navbar-toggler {
+      background-color: #fff !important;
+  } */
+
+    .main-btn:hover {
+        background-color: #021832;
+        color: #fff !important;
+        /* border-color: white; */
+    }
+
+}

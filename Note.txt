@@ -1,0 +1,6 @@
+client: npm start
+server: node server.js
+node js: run time environment of js
+express js: used for create the server
+
+mongo db:json format
